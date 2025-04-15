@@ -89,13 +89,24 @@ class DGLongShort(Strategy):
             self.BBANDS.update(candle['close'])
             self.SMA.update(candle['close'])
             self.last_update_dt = candle['date'] + self.tf
-        if(len(self.prev_RSI) >= 3 and self.prev_RSI[-3] is None):
-            self.logger.write(f"RSI values not set yet\n")
+        if (
+            len(self.prev_RSI) >= 3 and 
+            self.prev_PLUS_DI[-3] not in [None, 0] and
+            self.prev_MINUS_DI[-3] not in [None, 0] and
+            self.prev_RSI[-3] not in [None, 0]
+        ):
+            self.rsi_rc = (self.prev_RSI[-1] - self.prev_RSI[-3]) / self.prev_RSI[-3] * 100
+            self.plus_di_rc  = (self.prev_PLUS_DI[-1]  - self.prev_PLUS_DI[-3]) / self.prev_PLUS_DI[-3] * 100
+            self.minus_di_rc = (self.prev_MINUS_DI[-1] - self.prev_MINUS_DI[-3]) / self.prev_MINUS_DI[-3] * 100
+            self.band_diff = (self.BBANDS.upperband - self.BBANDS.lowerband) / candle['close'] * 100
+        else:
+            self.logger.write("Not enough data to compute rate of change safely\n")
             return False
-        self.rsi_rc = (self.prev_RSI[-1] - self.prev_RSI[-3]) / self.prev_RSI[-3] * 100
-        self.plus_di_rc  = (self.prev_PLUS_DI[-1]  - self.prev_PLUS_DI[-3] ) / self.prev_PLUS_DI[-3]  * 100
-        self.minus_di_rc = (self.prev_MINUS_DI[-1] - self.prev_MINUS_DI[-3]) / self.prev_MINUS_DI[-3] * 100
-        self.band_diff = (self.BBANDS.upperband - self.BBANDS.lowerband) / candle['close'] * 100
+
+        # self.rsi_rc = (self.prev_RSI[-1] - self.prev_RSI[-3]) / self.prev_RSI[-3] * 100
+        # self.plus_di_rc  = (self.prev_PLUS_DI[-1]  - self.prev_PLUS_DI[-3] ) / self.prev_PLUS_DI[-3]  * 100
+        # self.minus_di_rc = (self.prev_MINUS_DI[-1] - self.prev_MINUS_DI[-3]) / self.prev_MINUS_DI[-3] * 100
+        # self.band_diff = (self.BBANDS.upperband - self.BBANDS.lowerband) / candle['close'] * 100
         self.candle = candle
         return True
 
@@ -170,7 +181,7 @@ class DGLongShort(Strategy):
                         self.position_count-=1
                     else:
                         self.position_count+=1
-                    self.logger.write(f"SL hit in Order {pos['order_id']} at {order.fill_price}")
+                    self.logger.write(f"SL hit in Order {pos['order_id']} at {order.fill_price}\n")
                     pos['sl_order_id'] = None
                     self.exchange.cancel_order(pos['tgt_order_id'])
                     pos['tgt_order_id'] = None
@@ -180,7 +191,7 @@ class DGLongShort(Strategy):
                         self.position_count-=1
                     else:
                         self.position_count+=1
-                    self.logger.write(f"Target hit in Order {pos['order_id']} at {order.fill_price}")
+                    self.logger.write(f"Target hit in Order {pos['order_id']} at {order.fill_price}\n")
                     pos['tgt_order_id'] = None
                     self.exchange.cancel_order(pos['sl_order_id'])
                     pos['sl_order_id'] = None

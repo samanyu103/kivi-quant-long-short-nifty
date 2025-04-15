@@ -216,7 +216,9 @@ Entered Long, at 11723.3 SL: 11137.13 Target: 12309.47
 Long condition met at 2020-02-27 09:16:00
 Entered Long, at 11639.95 SL: 11057.95 Target: 12221.95
 squaring off .. at 2020-02-27 15:15:00, placing 1 SELL orders
-SL hit in Order 294 at 11362.52SL hit in Order 297 at 11335.83Short condition met at 2020-03-02 09:16:00
+SL hit in Order 294 at 11362.52
+SL hit in Order 297 at 11335.83
+Short condition met at 2020-03-02 09:16:00
 Entered Short, at 11412.9 SL: 11983.55 Target: 10842.25
 Long condition met at 2020-03-02 12:16:00
 Entered Long, at 11389.5 SL: 10820.02 Target: 11958.98
@@ -243,7 +245,13 @@ Long condition met at 2020-03-06 10:16:00
 Entered Long, at 10929.9 SL: 10383.4 Target: 11476.4
 Long condition met at 2020-03-06 12:16:00
 Entered Long, at 10903.7 SL: 10358.52 Target: 11448.88
-Target hit in Order 335 at 10747.92Target hit in Order 338 at 10750.25Target hit in Order 344 at 10701.46Target hit in Order 347 at 10767.25Target hit in Order 350 at 10810.67SL hit in Order 341 at 10730.15Long condition met at 2020-03-09 10:40:00
+Target hit in Order 335 at 10747.92
+Target hit in Order 338 at 10750.25
+Target hit in Order 344 at 10701.46
+Target hit in Order 347 at 10767.25
+Target hit in Order 350 at 10810.67
+SL hit in Order 341 at 10730.15
+Long condition met at 2020-03-09 10:40:00
 Entered Long, at 10563.95 SL: 10035.75 Target: 11092.15
 Long condition met at 2020-03-09 12:40:00
 Entered Long, at 10521.3 SL: 9995.23 Target: 11047.37
@@ -253,16 +261,26 @@ Long condition met at 2020-03-11 11:16:00
 Entered Long, at 10403.25 SL: 9883.09 Target: 10923.41
 Short condition met at 2020-03-11 14:16:00
 Entered Short, at 10496.95 SL: 11021.8 Target: 9972.1
-Target hit in Order 374 at 9972.1SL hit in Order 362 at 10035.75SL hit in Order 365 at 9995.23Long condition met at 2020-03-12 09:16:00
+Target hit in Order 374 at 9972.1
+SL hit in Order 362 at 10035.75
+SL hit in Order 365 at 9995.23
+Long condition met at 2020-03-12 09:16:00
 Entered Long, at 9948.95 SL: 9451.5 Target: 10446.4
-SL hit in Order 371 at 9883.09SL hit in Order 368 at 9873.68Short condition met at 2020-03-12 11:16:00
+SL hit in Order 371 at 9883.09
+SL hit in Order 368 at 9873.68
+Short condition met at 2020-03-12 11:16:00
 Entered Short, at 9733.9 SL: 10220.59 Target: 9247.21
 Short condition met at 2020-03-12 12:16:00
 Entered Short, at 9729.6 SL: 10216.08 Target: 9243.12
 sqauring off at 2020-03-12 15:15:00, placing 1 BUY orders
-SL hit in Order 377 at 9451.5Target hit in Order 380 at 9247.21Target hit in Order 383 at 9243.12Long condition met at 2020-03-13 11:40:00
+SL hit in Order 377 at 9451.5
+Target hit in Order 380 at 9247.21
+Target hit in Order 383 at 9243.12
+Not enough data to compute rate of change safely
+Long condition met at 2020-03-13 11:40:00
 Entered Long, at 9486.6 SL: 9012.27 Target: 9960.93
-Target hit in Order 387 at 9960.93Long condition met at 2020-03-16 09:16:00
+Target hit in Order 387 at 9960.93
+Long condition met at 2020-03-16 09:16:00
 Entered Long, at 9494.05 SL: 9019.35 Target: 9968.75
 Long condition met at 2020-03-16 13:16:00
 Entered Long, at 9413.1 SL: 8942.44 Target: 9883.76
@@ -271,18 +289,25 @@ Short condition met at 2020-03-18 09:15:00
 Entered Short, at 8965.3 SL: 9413.56 Target: 8517.04
 Short condition met at 2020-03-18 09:16:00
 Entered Short, at 9083.5 SL: 9537.67 Target: 8629.33
-Target hit in Order 400 at 8629.33Target hit in Order 397 at 8517.04Long condition met at 2020-03-19 09:16:00
+Target hit in Order 400 at 8629.33
+Target hit in Order 397 at 8517.04
+Long condition met at 2020-03-19 09:16:00
 Entered Long, at 7945.65 SL: 7548.37 Target: 8342.93
-Target hit in Order 403 at 8342.93Short condition met at 2020-03-19 11:16:00
+Target hit in Order 403 at 8342.93
+Short condition met at 2020-03-19 11:16:00
 Entered Short, at 8303.65 SL: 8718.83 Target: 7888.47
 Short condition met at 2020-03-20 09:16:00
 Entered Short, at 8226.0 SL: 8637.3 Target: 7814.7
-SL hit in Order 409 at 8637.3Short condition met at 2020-03-20 12:16:00
+SL hit in Order 409 at 8637.3
+Short condition met at 2020-03-20 12:16:00
 Entered Short, at 8640.65 SL: 9072.68 Target: 8208.62
-SL hit in Order 406 at 8718.83Short condition met at 2020-03-20 13:16:00
+SL hit in Order 406 at 8718.83
+Short condition met at 2020-03-20 13:16:00
 Entered Short, at 8729.75 SL: 9166.24 Target: 8293.26
 sqauring off at 2020-03-20 15:15:00, placing 2 BUY orders
-Target hit in Order 412 at 8208.62Target hit in Order 415 at 8293.26Short condition met at 2020-03-23 11:40:00
+Target hit in Order 412 at 8208.62
+Target hit in Order 415 at 8293.26
+Short condition met at 2020-03-23 11:40:00
 Entered Short, at 7797.05 SL: 8186.9 Target: 7407.2
 Short condition met at 2020-03-23 14:40:00
 Entered Short, at 7787.35 SL: 8176.72 Target: 7397.98
@@ -290,18 +315,25 @@ Short condition met at 2020-03-24 09:15:00
 Entered Short, at 7636.65 SL: 8018.48 Target: 7254.82
 Short condition met at 2020-03-24 09:16:00
 Entered Short, at 8026.95 SL: 8428.3 Target: 7625.6
-Target hit in Order 428 at 7625.6Short condition met at 2020-03-25 09:15:00
+Target hit in Order 428 at 7625.6
+Short condition met at 2020-03-25 09:15:00
 Entered Short, at 7852.45 SL: 8245.07 Target: 7459.83
 Long condition met at 2020-03-25 09:16:00
 Entered Long, at 7904.05 SL: 7508.85 Target: 8299.25
-SL hit in Order 425 at 8018.48SL hit in Order 422 at 8176.72SL hit in Order 419 at 8186.9SL hit in Order 431 at 8245.07Target hit in Order 434 at 8299.25Short condition met at 2020-03-26 09:16:00
+SL hit in Order 425 at 8018.48
+SL hit in Order 422 at 8176.72
+SL hit in Order 419 at 8186.9
+SL hit in Order 431 at 8245.07
+Target hit in Order 434 at 8299.25
+Short condition met at 2020-03-26 09:16:00
 Entered Short, at 8365.4 SL: 8783.67 Target: 7947.13
 Short condition met at 2020-03-26 10:16:00
 Entered Short, at 8683.15 SL: 9117.31 Target: 8248.99
 Short condition met at 2020-03-26 13:16:00
 Entered Short, at 8720.0 SL: 9156.0 Target: 8284.0
 sqauring off at 2020-03-26 15:15:00, placing 3 BUY orders
-SL hit in Order 437 at 8783.67Long condition met at 2020-03-30 09:16:00
+SL hit in Order 437 at 8783.67
+Long condition met at 2020-03-30 09:16:00
 Entered Long, at 8377.2 SL: 7958.34 Target: 8796.06
 squaring off .. at 2020-03-30 15:15:00, placing 1 SELL orders
 Short condition met at 2020-03-31 12:40:00
@@ -314,16 +346,20 @@ Short condition met at 2020-04-01 14:16:00
 Entered Short, at 8240.05 SL: 8652.05 Target: 7828.05
 Long condition met at 2020-04-03 09:16:00
 Entered Long, at 8196.35 SL: 7786.53 Target: 8606.17
-Target hit in Order 451 at 8148.67SL hit in Order 454 at 8128.34Short condition met at 2020-04-03 10:16:00
+Target hit in Order 451 at 8148.67
+SL hit in Order 454 at 8128.34
+Short condition met at 2020-04-03 10:16:00
 Entered Short, at 8188.85 SL: 8598.29 Target: 7779.41
-SL hit in Order 457 at 8114.05sqauring off at 2020-04-03 15:15:00, placing 1 BUY orders
+SL hit in Order 457 at 8114.05
+sqauring off at 2020-04-03 15:15:00, placing 1 BUY orders
 Short condition met at 2020-04-07 13:40:00
 Entered Short, at 8649.0 SL: 9081.45 Target: 8216.55
 Long condition met at 2020-04-08 09:16:00
 Entered Long, at 8721.15 SL: 8285.09 Target: 9157.21
 Short condition met at 2020-04-08 10:16:00
 Entered Short, at 8982.95 SL: 9432.1 Target: 8533.8
-SL hit in Order 470 at 9081.45Short condition met at 2020-04-09 09:16:00
+SL hit in Order 470 at 9081.45
+Short condition met at 2020-04-09 09:16:00
 Entered Short, at 8923.5 SL: 9369.67 Target: 8477.33
 Short condition met at 2020-04-09 10:16:00
 Entered Short, at 9013.7 SL: 9464.39 Target: 8563.01
@@ -358,7 +394,8 @@ Entered Short, at 9018.15 SL: 9469.06 Target: 8567.24
 Short condition met at 2020-04-16 14:16:00
 Entered Short, at 9023.55 SL: 9474.73 Target: 8572.37
 sqauring off at 2020-04-16 15:15:00, placing 8 BUY orders
-Target hit in Order 515 at 9300.8Long condition met at 2020-04-17 11:40:00
+Target hit in Order 515 at 9300.8
+Long condition met at 2020-04-17 11:40:00
 Entered Long, at 9154.35 SL: 8696.63 Target: 9612.07
 Short condition met at 2020-04-20 09:16:00
 Entered Short, at 9308.4 SL: 9773.82 Target: 8842.98
@@ -391,7 +428,9 @@ Short condition met at 2020-04-29 11:16:00
 Entered Short, at 9485.1 SL: 9959.35 Target: 9010.85
 Short condition met at 2020-04-30 09:16:00
 Entered Short, at 9740.4 SL: 10227.42 Target: 9253.38
-SL hit in Order 565 at 9754.08SL hit in Order 568 at 9840.7sqauring off at 2020-04-30 15:15:00, placing 3 BUY orders
+SL hit in Order 565 at 9754.08
+SL hit in Order 568 at 9840.7
+sqauring off at 2020-04-30 15:15:00, placing 3 BUY orders
 Short condition met at 2020-05-05 09:16:00
 Entered Short, at 9423.3 SL: 9894.47 Target: 8952.13
 Short condition met at 2020-05-06 09:15:00
@@ -439,7 +478,8 @@ Entered Short, at 9074.05 SL: 9527.75 Target: 8620.35
 Short condition met at 2020-05-15 14:16:00
 Entered Short, at 9135.15 SL: 9591.91 Target: 8678.39
 squaring off .. at 2020-05-15 15:15:00, placing 1 SELL orders
-Target hit in Order 628 at 9020.63Short condition met at 2020-05-19 09:15:00
+Target hit in Order 628 at 9020.63
+Short condition met at 2020-05-19 09:15:00
 Entered Short, at 8830.4 SL: 9271.92 Target: 8388.88
 Short condition met at 2020-05-19 09:16:00
 Entered Short, at 8925.35 SL: 9371.62 Target: 8479.08
@@ -466,8 +506,12 @@ Short condition met at 2020-05-28 10:16:00
 Entered Short, at 9428.95 SL: 9900.4 Target: 8957.5
 Long condition met at 2020-05-29 09:16:00
 Entered Long, at 9406.75 SL: 8936.41 Target: 9877.09
-SL hit in Order 675 at 9515.94Target hit in Order 672 at 9574.11SL hit in Order 678 at 9565.13sqauring off at 2020-05-29 15:15:00, placing 1 BUY orders
-SL hit in Order 681 at 9820.02Long condition met at 2020-06-01 13:40:00
+SL hit in Order 675 at 9515.94
+Target hit in Order 672 at 9574.11
+SL hit in Order 678 at 9565.13
+sqauring off at 2020-05-29 15:15:00, placing 1 BUY orders
+SL hit in Order 681 at 9820.02
+Long condition met at 2020-06-01 13:40:00
 Entered Long, at 9856.65 SL: 9363.82 Target: 10349.48
 Short condition met at 2020-06-02 09:16:00
 Entered Short, at 9859.05 SL: 10352.0 Target: 9366.1
@@ -506,7 +550,14 @@ Long condition met at 2020-06-11 10:16:00
 Entered Long, at 10091.3 SL: 9586.73 Target: 10595.87
 Long condition met at 2020-06-11 11:16:00
 Entered Long, at 10020.6 SL: 9519.57 Target: 10521.63
-Target hit in Order 725 at 9748.33SL hit in Order 728 at 9725.62Target hit in Order 731 at 9595.19Target hit in Order 734 at 9584.74Target hit in Order 737 at 9599.42SL hit in Order 740 at 9562.03SL hit in Order 743 at 9586.73Long condition met at 2020-06-12 09:16:00
+Target hit in Order 725 at 9748.33
+SL hit in Order 728 at 9725.62
+Target hit in Order 731 at 9595.19
+Target hit in Order 734 at 9584.74
+Target hit in Order 737 at 9599.42
+SL hit in Order 740 at 9562.03
+SL hit in Order 743 at 9586.73
+Long condition met at 2020-06-12 09:16:00
 Entered Long, at 9649.5 SL: 9167.02 Target: 10131.98
 Long condition met at 2020-06-12 10:16:00
 Entered Long, at 9673.2 SL: 9189.54 Target: 10156.86
@@ -862,9 +913,12 @@ Long condition met at 2020-09-23 12:16:00
 Entered Long, at 11128.6 SL: 10572.17 Target: 11685.03
 Long condition met at 2020-09-24 09:16:00
 Entered Long, at 10985.35 SL: 10436.08 Target: 11534.62
-Target hit in Order 1247 at 10923.15SL hit in Order 1250 at 10904.24Short condition met at 2020-09-24 14:16:00
+Target hit in Order 1247 at 10923.15
+SL hit in Order 1250 at 10904.24
+Short condition met at 2020-09-24 14:16:00
 Entered Short, at 10910.1 SL: 11455.6 Target: 10364.6
-SL hit in Order 1253 at 10843.4squaring off .. at 2020-09-24 15:15:00, placing 1 SELL orders
+SL hit in Order 1253 at 10843.4
+squaring off .. at 2020-09-24 15:15:00, placing 1 SELL orders
 Long condition met at 2020-09-25 13:40:00
 Entered Long, at 10977.45 SL: 10428.58 Target: 11526.32
 Short condition met at 2020-09-28 09:16:00
