@@ -145,19 +145,19 @@ class DGLongShort(Strategy):
     # def _long_condition(self):
     def _short_condition(self):
         return (
-            (self.candle['high'] > self.BBANDS.upperband) 
-            # (self.rsi_rc > 5) &
-            # (self.plus_di_rc > 5) &
-            # (self.band_diff > 0.4)
+            (self.candle['high'] > self.BBANDS.upperband) &
+            (self.rsi_rc > 5) &
+            (self.plus_di_rc > 5) &
+            (self.band_diff > 0.4)
         )
 
     # def _short_condition(self):
     def _long_condition(self):
         return (
-            (self.candle['low'] < self.BBANDS.lowerband) 
-            # (self.rsi_rc <= -5) &
-            # (self.minus_di_rc < -5) &
-            # (self.band_diff > 0.4)
+            (self.candle['low'] < self.BBANDS.lowerband) &
+            (self.rsi_rc <= -5) &
+            (self.minus_di_rc < -5) &
+            (self.band_diff > 0.4)
         )
 
     # def place_order(self, side, qty=1):

@@ -16,7 +16,14 @@ To run for time gaps in [15, 20... 60] run ./run_loop.sh :
 ```
 ./run_loop.sh
 ```
-
+To run for all years modify run.sh (add "$1" and "$2") as follows:
+```
+python3 Code/main.py "$1" "$2"
+```
+and then run 
+```
+./run_years.sh
+```
 Finally for plotting the pnls of 2020. I used
 ```
 python3 analysis_2020.py

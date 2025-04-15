@@ -78,10 +78,10 @@ class Strategy:
         self.position=Position()
 
 
-    def plot_equity_curve_and_drawdowns(self, equity_curve, drawdowns):
+    def plot_equity_curve_and_drawdowns(self, total_pnl_list, equity_curve, drawdowns):
         # Plot PnL
         plt.subplot(3, 1, 1)
-        plt.plot(self.pnl, label='PnL per Trade', color='blue')
+        plt.plot(total_pnl_list, label='PnL per Trade', color='blue')
         plt.title('PnL per Trade')
         plt.ylabel('PnL')
         plt.grid(True)
@@ -90,8 +90,8 @@ class Strategy:
         # Plot Equity Curve
         plt.subplot(3, 1, 2)
         plt.plot(equity_curve, label='Equity Curve', color='green')
-        plt.title('Equity Curve')
-        plt.ylabel('Equity')
+        plt.title('Cumsum')
+        plt.ylabel('Cumsum')
         plt.grid(True)
         plt.legend()
 
@@ -105,7 +105,21 @@ class Strategy:
         plt.legend()
 
         plt.tight_layout()
-        plt.show()
+        plt.savefig(f"{self.log_path}/plot.png")
+        # plt.show()
+
+    def plot_cumsum(self, equity_curve):
+        plt.figure(figsize=(10, 5))  # create a new standalone figure
+        plt.plot(equity_curve, label='Equity Curve', color='green')
+        plt.title('Cumsum')
+        plt.xlabel('Time')  # optional, depending on your x-axis
+        plt.ylabel('Cumulative Sum')
+        plt.grid(True)
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig(f"{self.log_path}/plot.png")
+        # plt.show()
+
 
 
     def update_position(self):
@@ -177,7 +191,8 @@ class Strategy:
             max_drawdown = np.min(drawdowns)
         
                 # Equity Curve Plot
-        # self.plot_equity_curve_and_drawdowns(equity_curve, drawdowns)
+        # self.plot_equity_curve_and_drawdowns(total_pnl_list, equity_curve, drawdowns)
+        self.plot_cumsum(equity_curve)
 
 
         # write to general logger logs/{date}/stdout.csv
