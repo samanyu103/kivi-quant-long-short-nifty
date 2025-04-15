@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for (( year=2024; year>=2015; year-- ))
+for (( year=2023; year>=2015; year-- ))
 do
     echo "Running for year $year"
     start_date="${year}0101"

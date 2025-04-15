@@ -16,7 +16,7 @@ To run for time gaps in [15, 20... 60] run ./run_loop.sh :
 ```
 ./run_loop.sh
 ```
-To run for all years modify run.sh (add "$1" and "$2") as follows:
+To run for all years (2023 down to 2015) modify run.sh (add "$1" and "$2") as follows:
 ```
 python3 Code/main.py "$1" "$2"
 ```
